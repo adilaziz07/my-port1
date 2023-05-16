@@ -1108,7 +1108,183 @@ $bgc-2: #6c757d;
     }
 
 }
+@media (max-width : 920px) {
+    .Nav-bar {
+        .Nav-info {
+            h3 {
+                line-height: 120px;
+            }
+        }
+    }
 
+    .container-2 {
+        margin-left: auto;
+
+        .about-container {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+
+            .main-about-heading {
+                h1 {
+                    font-size: 6rem;
+                    justify-content: center;
+                    margin-left: -50px;
+                }
+
+                h2 {
+                    justify-content: center;
+                    margin-left: -80px;
+                    margin-top: 30px;
+                }
+            }
+
+            .main-info-box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .about-detail {
+                    position: relative;
+                    left: 40px;
+                    margin-top: 320px;
+                }
+            }
+
+            .ex-detail {
+                display: flex;
+                flex-direction: row;
+                width: 500px;
+            }
+        }
+
+        .main-service {
+            .heading {
+                margin-left: -60px;
+
+                h1 {
+                    font-size: 7rem;
+                    text-align: center;
+                }
+
+                h2 {
+                    font-size: 2rem;
+                    margin-top: 60px;
+                }
+            }
+
+            .boxes {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .main-summary {
+            .main-heading {
+                h1 {
+                    font-size: 6rem;
+                    margin-top: 40px;
+                }
+
+                h3 {
+                    font-size: 2rem;
+                    margin-top: 70px;
+                }
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .row2 {
+                    margin-top: 100px;
+                }
+
+            }
+
+            .container {
+                width: auto;
+                margin-left: 0;
+                padding: 10px;
+            }
+        }
+
+        .main-b-port {
+            .main-heading {
+                margin-top: 20px;
+
+                h1 {
+                    font-size: 6rem;
+                }
+
+                h2 {
+                    font-size: 2rem;
+                    margin-top: 45px;
+                }
+            }
+
+            .s-line {
+                h2 {
+                    font-size: 1.4rem;
+                }
+            }
+
+            .main-image-b {
+                display: grid;
+
+                .projects {
+                    width: 150%;
+                    position: relative;
+                    right: 50px;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .main-testi {
+            .heading {
+                margin-top: 40px;
+
+                h1 {
+                    font-size: 5rem;
+                }
+
+                h2 {
+                    font-size: 2rem;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        .main-contact {
+            .heading {
+                margin-top: 30px;
+
+                .main-heading {
+                    font-size: 6rem;
+                }
+
+                .small-heading {
+                    font-size: 2rem;
+                    margin-top: 60px;
+                }
+            }
+
+            .detail-box {
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+            }
+        }
+    }
+}
 @media (max-width: 800px) {
     .Nav-bar {
         .Nav-info {
@@ -1421,7 +1597,7 @@ $bgc-2: #6c757d;
                 height: auto;
 
                 h1 {
-                    font-size: 4rem;
+                    font-size: 3rem;
                     text-align: center;
                     margin-left: -250px;
                 }
@@ -1429,7 +1605,7 @@ $bgc-2: #6c757d;
                 h2 {
                     font-size: 1rem;
                     justify-content: center;
-                    margin-left: -170px;
+                    margin-left: -200px;
                     margin-top: 50px;
                 }
             }
@@ -1667,183 +1843,7 @@ $bgc-2: #6c757d;
     }
 }
 
-@media (max-width : 920px) {
-    .Nav-bar {
-        .Nav-info {
-            h3 {
-                line-height: 120px;
-            }
-        }
-    }
 
-    .container-2 {
-        margin-left: auto;
-
-        .about-container {
-            display: flex;
-            flex-direction: column;
-            height: auto;
-
-            .main-about-heading {
-                h1 {
-                    font-size: 6rem;
-                    justify-content: center;
-                    margin-left: -50px;
-                }
-
-                h2 {
-                    justify-content: center;
-                    margin-left: -80px;
-                    margin-top: 30px;
-                }
-            }
-
-            .main-info-box {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                .about-detail {
-                    position: relative;
-                    left: 40px;
-                    margin-top: 320px;
-                }
-            }
-
-            .ex-detail {
-                display: flex;
-                flex-direction: row;
-                width: 500px;
-            }
-        }
-
-        .main-service {
-            .heading {
-                margin-left: -60px;
-
-                h1 {
-                    font-size: 7rem;
-                    text-align: center;
-                }
-
-                h2 {
-                    font-size: 2rem;
-                    margin-top: 60px;
-                }
-            }
-
-            .boxes {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-        }
-
-        .main-summary {
-            .main-heading {
-                h1 {
-                    font-size: 6rem;
-                    margin-top: 40px;
-                }
-
-                h3 {
-                    font-size: 2rem;
-                    margin-top: 70px;
-                }
-            }
-
-            .info {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-
-                .row2 {
-                    margin-top: 100px;
-                }
-
-            }
-
-            .container {
-                width: auto;
-                margin-left: 0;
-                padding: 10px;
-            }
-        }
-
-        .main-b-port {
-            .main-heading {
-                margin-top: 20px;
-
-                h1 {
-                    font-size: 6rem;
-                }
-
-                h2 {
-                    font-size: 2rem;
-                    margin-top: 45px;
-                }
-            }
-
-            .s-line {
-                h2 {
-                    font-size: 1.4rem;
-                }
-            }
-
-            .main-image-b {
-                display: grid;
-
-                .projects {
-                    width: 150%;
-                    position: relative;
-                    right: 50px;
-                }
-
-                img {
-                    width: 100%;
-                }
-            }
-        }
-
-        .main-testi {
-            .heading {
-                margin-top: 40px;
-
-                h1 {
-                    font-size: 5rem;
-                }
-
-                h2 {
-                    font-size: 2rem;
-                    margin-top: 30px;
-                }
-            }
-        }
-
-        .main-contact {
-            .heading {
-                margin-top: 30px;
-
-                .main-heading {
-                    font-size: 6rem;
-                }
-
-                .small-heading {
-                    font-size: 2rem;
-                    margin-top: 60px;
-                }
-            }
-
-            .detail-box {
-                display: flex;
-                flex-direction: column-reverse;
-                align-items: center;
-            }
-        }
-    }
-}
 
 /* {
 :root {

@@ -1034,7 +1034,7 @@
   .Navbar-Resp .Nav-on h3 {
     visibility: visible;
     font-size: 12px;
-    line-height: 30px;
+    line-height: 3px;
   }
   .Navbar-Resp .Nav-icons {
     visibility: visible;
@@ -1063,14 +1063,14 @@
     height: auto;
   }
   .container-2 .about-container .main-about-heading h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin-left: -250px;
   }
   .container-2 .about-container .main-about-heading h2 {
     font-size: 1rem;
     justify-content: center;
-    margin-left: -170px;
+    margin-left: -200px;
     margin-top: 50px;
   }
   .container-2 .about-container .main-info-box {
